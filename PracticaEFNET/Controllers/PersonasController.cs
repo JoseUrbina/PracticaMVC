@@ -17,8 +17,8 @@ namespace PracticaEFNET.Controllers
         // GET: Personas
         public ActionResult Index()
         {
-            return View();
-           // return View(db.Persona.ToList());
+            //return View();
+           return View(db.Persona.ToList());
         }
 
         // GET: Personas/Details/5
