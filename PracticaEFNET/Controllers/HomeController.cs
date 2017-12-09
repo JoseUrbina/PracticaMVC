@@ -10,7 +10,7 @@ namespace PracticaEFNET.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+            return Content("Hola Mundo!");
         }
 
         public ActionResult About()
