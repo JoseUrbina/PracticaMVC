@@ -18,6 +18,7 @@ namespace PracticaEFNET.Controllers
         public ActionResult Index()
         {
             //return View();
+            // Return all data
            return View(db.Persona.ToList());
         }
 
